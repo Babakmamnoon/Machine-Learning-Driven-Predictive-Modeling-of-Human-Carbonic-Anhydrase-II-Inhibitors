@@ -1,0 +1,2 @@
+# Machine-Learning-Driven-Predictive-Modeling-of-Human-Carbonic-Anhydrase-II-Inhibitors
+A professional Cheminformatics pipeline for Human Carbonic Anhydrase II. Features ChEMBL data acquisition, ECFP4 molecular fingerprinting, and comparative ML modeling (XGBoost, RF, SVM, Logistic Regression). Evaluated via 5-fold CV with ROC-AUC and Precision-Recall analysis to identify potent inhibitors (&lt;1µM)
