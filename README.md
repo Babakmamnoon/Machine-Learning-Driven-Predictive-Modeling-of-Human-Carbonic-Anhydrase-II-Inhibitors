@@ -44,7 +44,8 @@ Models are evaluated using **Stratified 5-Fold Cross-Validation** to ensure robu
 ## How to Run
 You can run this project directly in your browser via Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/blob/main/YOUR_FILENAME.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Babakmamnoon/Machine-Learning-Driven-Predictive-Modeling-of-Human-Carbonic-Anhydrase-II-Inhibitors/blob/main/Machine_Learning_on_Human_Carbonic_Anhydrase_II_Inhibition.ipynb)
+
 
 ### Prerequisites
 The script automatically installs the necessary dependencies:
