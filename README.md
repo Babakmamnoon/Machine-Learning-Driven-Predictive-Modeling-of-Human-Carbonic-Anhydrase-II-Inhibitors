@@ -17,19 +17,19 @@ This project implements a machine learning pipeline to classify small molecule i
 
 ## Workflow Steps
 
-### Step A — Data Acquisition
+### Step One — Data Acquisition
 * **Source:** Data is programmatically retrieved from the **ChEMBL database** (Target ID: `CHEMBL205`).
 * **Filtering:** We extract compounds with experimentally measured **IC₅₀** values.
 * **Labeling:** Bioactivity values are converted into binary classes. 
     * **Active (1):** IC₅₀ < 1,000 nM (1 µM)
     * **Inactive (0):** IC₅₀ ≥ 1,000 nM
 
-### Step B — Preprocessing & Featurization
+### Step Two — Preprocessing & Featurization
 * **SMILES Processing:** RDKit is used to parse Canonical SMILES strings.
 * **Fingerprinting:** Molecules are featurized using **Morgan Fingerprints (ECFP4)** with a radius of 2 and 2,048 bits. This captures the local circular environment of atoms, essential for SAR (Structure-Activity Relationship) analysis.
 * **Data Splitting:** The dataset is split into training (80%) and testing (20%) sets, using stratification to maintain class balance.
 
-### Step C — Machine Learning Models
+### Step Three — Machine Learning Models
 We implement and compare four distinct algorithms to benchmark performance:
 1.  **Logistic Regression:** Serves as a linear baseline.
 2.  **Random Forest:** An ensemble method to capture non-linear relationships.
@@ -44,7 +44,10 @@ Models are evaluated using **Stratified 5-Fold Cross-Validation** to ensure robu
 ## How to Run
 You can run this project directly in your browser via Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Babakmamnoon/Machine-Learning-Driven-Predictive-Modeling-of-Human-Carbonic-Anhydrase-II-Inhibitors/blob/main/Machine_Learning_on_Human_Carbonic_Anhydrase_II_Inhibition.ipynb)
+### How to Run
+You can run this project directly in your browser using Google Colab:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Babakmamnoon/Machine-Learning-Driven-Predictive-Modeling-of-Human-Carbonic-Anhydrase-II-Inhibitors/blob/main/CAII_Model.ipynb)
 
 
 ### Prerequisites
