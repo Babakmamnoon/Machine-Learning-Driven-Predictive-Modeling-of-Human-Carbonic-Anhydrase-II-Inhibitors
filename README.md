@@ -1,9 +1,9 @@
 # Project Title: Machine Learning-Driven Predictive Modeling of Human Carbonic Anhydrase II Inhibitors
 
 ## Project Overview
-Human Carbonic Anhydrase II is a critical enzyme involved in various physiological processes, including pH regulation and fluid secretion. It is a major drug target for glaucoma, edema, and epilepsy. This project demonstrates a complete Cheminformatics workflow—from data acquisition to predictive modeling by the classification of small-molecule inhibitors targeting Human Carbonic Anhydrase II (hCA II). By integrating high-throughput bioactivity data from the ChEMBL database with state-of-the-art machine learning algorithms, this project demonstrates how cheminformatics can accelerate the drug discovery process for targets associated with glaucoma, epilepsy, and altitude sickness.
+Human Carbonic Anhydrase II is a critical enzyme involved in various physiological processes, including pH regulation and fluid secretion. It is a major drug target for glaucoma, edema, and epilepsy. This project demonstrates a complete Cheminformatics workflow, from data acquisition to predictive modeling by the classification of small-molecule inhibitors targeting Human Carbonic Anhydrase II (hCA II). By integrating high-throughput bioactivity data from the ChEMBL database with state-of-the-art machine learning algorithms, this project demonstrates how cheminformatics can accelerate the drug discovery process for targets associated with glaucoma, epilepsy, and altitude sickness.
 
-The Pipeline The workflow begins with automated data acquisition and rigorous cleaning of ~1,200 compounds. Each molecule is featurized using Morgan Fingerprints (ECFP4)—a circular fingerprinting method that captures the essential pharmacophoric environments of the atoms.
+The workflow begins with automated data acquisition and rigorous cleaning of ~1,200 compounds. Each molecule is featurized using Morgan Fingerprints (ECFP4), a circular fingerprinting method that captures the essential pharmacophoric environments of the atoms.
 We evaluate the structural-activity relationships through four distinct lenses:
 Logistic Regression: Establishing a linear baseline for molecular similarity.
 Support Vector Machines (SVM): Utilizing RBF kernels to map high-dimensional chemical space.
