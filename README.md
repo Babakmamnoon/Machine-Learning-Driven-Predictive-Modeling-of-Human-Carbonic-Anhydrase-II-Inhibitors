@@ -8,7 +8,7 @@ We evaluate the structural-activity relationships through four distinct lenses:
 Logistic Regression: Establishing a linear baseline for molecular similarity.
 Support Vector Machines (SVM): Utilizing RBF kernels to map high-dimensional chemical space.
 Random Forest & XGBoost: Leveraging ensemble learning to capture the complex, non-linear interactions between chemical functional groups and the hCA II active site.
-Key Features * Robust Validation: Employs Stratified 5-Fold Cross-Validation to ensure model generalizability and prevent data leakage.
+Key Features
 Advanced Analytics: Beyond simple accuracy, the project implements Precision-Recall (PR) Curves and ROC-AUC analysis, providing a nuanced view of model performance on imbalanced bioactivity datasets.
 Reproducibility: Designed as a "one-click" executable environment in Google Colab, making sophisticated cheminformatics accessible to researchers and students alike.
 Conclusion The results highlight the superior performance of ensemble methods (Random Forest/XGBoost) in identifying the specific sulfonamide-based motifs characteristic of potent hCA II inhibitors. This tool serves as a foundational framework for virtual screening and lead optimization in medicinal chemistry.
@@ -37,7 +37,7 @@ We implement and compare four distinct algorithms to benchmark performance:
 4.  **XGBoost:** A gradient boosting framework for high-performance classification.
 
 ## Evaluation
-Models are evaluated using **Stratified 5-Fold Cross-Validation** to ensure robustness and avoid data leakage. Key metrics include:
+Key metrics include:
 * **ROC-AUC:** Measures the model's ability to distinguish between classes.
 * **Accuracy:** Overall percentage of correct predictions.
 
