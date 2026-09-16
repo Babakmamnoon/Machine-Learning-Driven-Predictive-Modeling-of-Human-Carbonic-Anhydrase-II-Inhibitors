@@ -47,7 +47,7 @@ You can run this project directly in your browser via Google Colab:
 ### How to Run
 You can run this project directly in your browser using Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Babakmamnoon/Machine-Learning-Driven-Predictive-Modeling-of-Human-Carbonic-Anhydrase-II-Inhibitors/blob/main/Machine%20Learning-Driven%20Predictive%20Modeling%20of%20Human%20Carbonic%20Anhydrase%20II%20Inhibitors.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Babakmamnoon/Machine-Learning-Driven-Predictive-Modeling-of-Human-Carbonic-Anhydrase-II-Inhibitors/blob/main/Machine_Learning_Driven_Predictive_Modeling_of_Human_Carbonic_Anhydrase_II_Inhibitors.ipynb)
 
 
 ### Prerequisites
